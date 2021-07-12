@@ -1,0 +1,57 @@
+.container{
+ display:flex;
+ align-items: center;
+ justify-content: center;
+ border: groove;
+ box-shadow: 3px 3px 3px grey;
+height: 500px;
+background-color: lightskyblue;
+padding-top: 10px;
+background-image: linear-gradient(to right top,#7d0aaa, #0a27aa, #006494, #48ff00, #006494, #0a27aa,#7d0aaa);
+}
+img{
+    max-width: 100%;
+}
+.image{
+    flex-basis:40%;
+}
+#user_name{
+width: 300px;
+
+}
+.text{
+    padding-left:20px;
+
+}
+body{
+    padding-top: 100px; 
+    background-color:lightcyan;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Teko', sans-serif;
+    
+}
+#submit
+{
+	width: 200px;
+    margin-top:10px;
+    border-radius: 15px;
+}
+#l{
+    font-size: 25px;
+}
+#d{
+    font-size: 35px;
+}
+
+#logo
+{
+	width: 60px;
+ 
+    border-radius: 40px;
+}
+#logout
+{
+	font-size: 15px; 
+    float: right 25px;
+
+}

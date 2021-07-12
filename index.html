@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Chat</title>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="chat.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="image" >
+            <img src="chat.jpg">
+
+        </div>
+        <div class="text">
+            <center>
+            <h1 id="d">Let's Chat<sup><img id="logo" src="logo.png"></sup> </h1>
+            <br>
+            <label id="l">Sign Up</label>
+            <br>
+            <input type="text" class="form-control" id="user_name" placeholder="Enter Username">        
+        <br>
+        <button id="submit" onclick="adduser()">Login</button>
+        </div>
+    </center>
+    </div>
+</body>
+</html>
